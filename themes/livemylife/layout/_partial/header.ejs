@@ -39,20 +39,24 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('<%= config.root + config["header-img"] %>');
-      --intro-header-background-image-url-post: url('<%= page["header-img"] %>');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<%= page["header-img"] %>');
       --intro-header-background-image-url-page: url('<%= config.root %><%= page["header-img"] || config["archives-img"]%>');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('<%= config.root + config["header-img"] %>');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('<%= page["header-img"] %>');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('<%= page["header-img"] %>');
       --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('<%= config.root %><%= page["header-img"] || config["archives-img"]%>');
     }
 
     header.intro-header {
+      display: table;
+      width: 100%!important;
       <% if (is_home()) { %> /*config*/
+        height: 100vh;
         background-image: var(--intro-header-background-image-url-home);
         /* background-image: url('<%= config.root + config["header-img"] %>'); */
       <% } else if (is_post()) { %> /*post*/
+        height: 100vh;
         background-image: var(--intro-header-background-image-url-post);
         /* background-image: url('<%= page["header-img"] %>'); */
       <% } else { %> /*page*/
@@ -136,10 +140,10 @@
         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
       </defs>
       <g class="preview-parallax">
-        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <!-- <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
         <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
         <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
-        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use> -->
       </g>
     </svg>
   </div>

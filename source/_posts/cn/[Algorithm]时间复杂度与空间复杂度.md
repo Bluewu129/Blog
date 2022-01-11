@@ -2,9 +2,9 @@
 title: '[Algoritems]时间复杂度与空间复杂度'
 catalog: true
 date: 2020-07-06 02:34:17
-subtitle: A succinct hexo theme...
+subtitle: Time complexity and space complexity
 lang: cn
-header-img: /img/header_img/lml_bg.jpg
+header-img: /img/posts/1.jpg
 tags:
 - Java
 - Data Structures
