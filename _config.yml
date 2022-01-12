@@ -52,12 +52,12 @@ favicon: img/avatar/icon-grey.png
 
 
 # Signature Setup
-signature: false # show signature
+signature: true # show signature
 signature-img: img/signature/wugaobo.png
 
 
 # Wave settings
-wave: true
+wave: false
 
 
 # SNS Settings
@@ -342,7 +342,7 @@ mouseclick:
 
 
 # Ribbon config
-ribbonDynamic: true
+ribbonDynamic: false
 
 
 # Line config

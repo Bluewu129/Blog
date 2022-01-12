@@ -60,6 +60,7 @@
         background-image: var(--intro-header-background-image-url-post);
         /* background-image: url('<%= page["header-img"] %>'); */
       <% } else { %> /*page*/
+        height: 60vh;
         background-image: var(--intro-header-background-image-url-page);
         /* background-image: url('<%= config.root %><%= page["header-img"] || config["archives-img"]%>'); */
       <% } %>
@@ -140,10 +141,10 @@
         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
       </defs>
       <g class="preview-parallax">
-        <!-- <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
         <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
         <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
-        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use> -->
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
       </g>
     </svg>
   </div>

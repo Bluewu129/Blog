@@ -1,75 +1,65 @@
 ---
 layout: "about"
 title: "About"
-date: 2016-04-21 04:48:33
-description: "那些年吹过的牛逼，还有很多没有实现 ......"
-header-img: "img/scenery/about_bg.jpg"
+date: 2021-08-01 12:50:41
+description: "一片你自己的地 一片可观赏的风景"
+header-img: "img/scenery/about-1.jpg"
 ---
 
-## Talk To Me
-
-> I always say to myself :
->
-> if my life is peaceful and plain sailing all the time ,
->
-> it means to die in the electrocardiogram …
+> Medicine, law, business, engineering
+> These are noble pursuits and necessary to sustain life.
+> But poetry, beauty, romance, love,
+> These are what we stay alive for.
 
 
+<p align="center" >
+  <samp>
+    Hi,我是<em>高博</em> 
+  </samp>
+  <br/>
+</p>
 
-## Just Me
+<img align='right' src="https://media.giphy.com/media/irClCpuJAWgRqtP73t/giphy.gif" width="230">
 
-<img src="/img/scenery/about_bg2.jpg" width="350" alt="about_bg2"></img>
 
-> 有一种状态 叫一个人 它总是挑战语言的贫乏 只能在某首歌中找寻灵感；
->
-> 有一种氨基酸 叫多巴胺 你不知道它何时会在你体内产生；
->
-> 有一种上瘾 叫抽烟 其实你抽的只是心情 又或是寂寞；
->
-> 有一种态度 叫纹身 其实我们只是想与众不同；
->
-> 有一种经历 叫旅行 年轻只有一次 不出去走走 或许以为眼前的就是世界；
->
-> 有一种人生 叫心电图 如果你总是一帆风顺 那么你就挂了；
->
-> 有一种悠闲 叫 " 老板给我杯Cappuccino " 香香甜甜 浓郁中带着苦涩 醇和而隽永 …
+<h3> 🧑🏻‍💼 About Me </h3>
 
 
 
-## The Longest Way ...
+- 🤔 &nbsp; 探索新技术,开源项目/网站
 
-<img src="/img/scenery/about_bg4.jpg" width="350" alt="about_bg4"></img>
+- 🌱 &nbsp; 正在学习AWS,SpringCloud Alibaba,系统设计
 
->  活在当下 然后忘记 继续往前走 ...
->
->  即便是一个人 ...
->
->  On the way to meet myself …
+- ✍️ &nbsp; 目前在北京工作5年,后端(前端也会)/开发组长,喜欢玩服务器.
+
+<h3>🛠 Tech Stack</h3>
 
 
-## Follow With Interest Blogs
+- 💻 &nbsp; Java | MySQL
 
-> Neo Peng：https://zhile.io
->
-> 李卫民：https://www.funtl.com/zh/guide
->
-> duanxz：https://www.cnblogs.com/duanxz/tag
->
-> Java1234_小锋：http://blog.java1234.com/index.html
->
-> Deserts：https://deserts.io
->
-> Super Snail：https://www.dusign.net
->
-> KIERAN'S BLOG：https://go.kieran.top
->
-> Mr.Seven：https://itimetraveler.github.io
+- 🌐 &nbsp; HTML | CSS | JavaScript | Vue | JSP
 
-## Contact me
+- 🛢 &nbsp; MySQL | Redis 
 
-> Email：601521821@qq.com
+- 🔧 &nbsp; Git | Markdown | Jenkins | Sona Cube ｜ AWS S3 
 
-## Treat me to coffee
->  If you feel that what I have written is of some value to you, I am glad that you are willing to invite me to drink coffee...
+- 🖥 &nbsp; Spring| SpringBoot | SpringCloud | Shiro | MyBatis
 
-<img src="/img/scenery/treat_me_to_coffee.png" width="350" alt="treat_me_to_coffee.png"></img>
+
+
+
+<h3>🛠 To Learn</h3>
+
+- 🔧 &nbsp; AWS | Docker🐳  | K8s 
+
+<h3>📱 Contact me </h3>
+
+#### 📮 &nbsp; 15110234020@qq.com
+
+<img src="/img/scenery/weChat.png" width="350" alt="weChat.png"></img>
+
+
+
+
+
+
